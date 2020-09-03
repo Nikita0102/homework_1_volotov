@@ -3,3 +3,14 @@ t=int(input("Время:"))
 x = v * t
 if x <= 100:
    print("Координаты Васи:",x,)
+
+
+
+v=int(input("Скорость:"))
+t=int(input("Время:"))
+s = v * t
+if s<=100 and s>0:
+    if s==100:
+        print(s,"км")
+    else:
+        print(s,"км")
